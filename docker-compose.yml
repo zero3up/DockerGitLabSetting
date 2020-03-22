@@ -156,6 +156,8 @@ services:
     - OAUTH_AZURE_API_SECRET=
     - OAUTH_AZURE_TENANT_ID=
 
-#volumes: 
+#volumes:
+#  redis-data:
 #  postgresql-data:
 #    external: true
+#  gitlab-data:
